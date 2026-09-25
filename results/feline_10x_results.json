@@ -1,0 +1,198 @@
+{
+ "change|ribociclib|resist_score|start->mid": {
+  "n": 15,
+  "median_change": 0.047907281840961324,
+  "p": 0.359130859375
+ },
+ "change|ribociclib|ifn_hub|start->mid": {
+  "n": 15,
+  "median_change": -0.0006727177349480362,
+  "p": 0.48870849609375
+ },
+ "change|ribociclib|e2f|start->mid": {
+  "n": 15,
+  "median_change": -0.09747761359712362,
+  "p": 0.0946044921875
+ },
+ "change|ribociclib|risk4|start->mid": {
+  "n": 15,
+  "median_change": -0.027812802486508387,
+  "p": 0.25238037109375
+ },
+ "change|ribociclib|resist_score|start->end": {
+  "n": 9,
+  "median_change": -0.014390773307478774,
+  "p": 0.91015625
+ },
+ "change|ribociclib|ifn_hub|start->end": {
+  "n": 9,
+  "median_change": -1.1716252479143652e-05,
+  "p": 0.91015625
+ },
+ "change|ribociclib|e2f|start->end": {
+  "n": 9,
+  "median_change": -0.055968870399872764,
+  "p": 0.5703125
+ },
+ "change|ribociclib|risk4|start->end": {
+  "n": 9,
+  "median_change": 0.1049955382693873,
+  "p": 0.30078125
+ },
+ "change|letrozole|resist_score|start->mid": {
+  "n": 10,
+  "median_change": 0.04532028372031742,
+  "p": 0.431640625
+ },
+ "change|letrozole|ifn_hub|start->mid": {
+  "n": 10,
+  "median_change": -0.0632232786220176,
+  "p": 0.232421875
+ },
+ "change|letrozole|e2f|start->mid": {
+  "n": 10,
+  "median_change": -0.4680299032037442,
+  "p": 0.013671875
+ },
+ "change|letrozole|risk4|start->mid": {
+  "n": 10,
+  "median_change": 0.020509791853028682,
+  "p": 0.625
+ },
+ "change|letrozole|resist_score|start->end": {
+  "n": 7,
+  "median_change": 0.08109905401578738,
+  "p": 0.15625
+ },
+ "change|letrozole|ifn_hub|start->end": {
+  "n": 7,
+  "median_change": -0.09269171076353155,
+  "p": 0.6875
+ },
+ "change|letrozole|e2f|start->end": {
+  "n": 7,
+  "median_change": -0.03297134702796811,
+  "p": 0.21875
+ },
+ "change|letrozole|risk4|start->end": {
+  "n": 7,
+  "median_change": 0.13016648665229436,
+  "p": 0.375
+ },
+ "baseline|ribociclib|resist_score": {
+  "n_resp": 10,
+  "n_non": 7,
+  "median_resp": -0.04345635525665631,
+  "median_non": 0.07620134453274072,
+  "AUC_high_predicts_nonresponse": 0.6285714285714286,
+  "p": 0.41731797614150556
+ },
+ "baseline|ribociclib|ifn_hub": {
+  "n_resp": 10,
+  "n_non": 7,
+  "median_resp": -0.3126829256127034,
+  "median_non": -0.3242425360702623,
+  "AUC_high_predicts_nonresponse": 0.44285714285714284,
+  "p": 0.7396133278486219
+ },
+ "baseline|ribociclib|e2f": {
+  "n_resp": 10,
+  "n_non": 7,
+  "median_resp": -0.20520832612301645,
+  "median_non": 0.0140827349728905,
+  "AUC_high_predicts_nonresponse": 0.5714285714285714,
+  "p": 0.6690662278897572
+ },
+ "baseline|ribociclib|risk4": {
+  "n_resp": 10,
+  "n_non": 7,
+  "median_resp": 0.022449852521487675,
+  "median_non": -0.04196847919043387,
+  "AUC_high_predicts_nonresponse": 0.5285714285714286,
+  "p": 0.8867749897161661
+ },
+ "baseline|letrozole|resist_score": {
+  "n_resp": 6,
+  "n_non": 5,
+  "median_resp": -0.194707720746185,
+  "median_non": -0.2826936452939027,
+  "AUC_high_predicts_nonresponse": 0.4,
+  "p": 0.6623376623376623
+ },
+ "baseline|letrozole|ifn_hub": {
+  "n_resp": 6,
+  "n_non": 5,
+  "median_resp": 0.07239830978721437,
+  "median_non": -0.2958576920443683,
+  "AUC_high_predicts_nonresponse": 0.5,
+  "p": 1.0
+ },
+ "baseline|letrozole|e2f": {
+  "n_resp": 6,
+  "n_non": 5,
+  "median_resp": 0.5292707760104113,
+  "median_non": 0.6017936703549488,
+  "AUC_high_predicts_nonresponse": 0.5666666666666667,
+  "p": 0.7922077922077921
+ },
+ "baseline|letrozole|risk4": {
+  "n_resp": 6,
+  "n_non": 5,
+  "median_resp": 0.11193049001875978,
+  "median_non": -0.09812328320285513,
+  "AUC_high_predicts_nonresponse": 0.26666666666666666,
+  "p": 0.24675324675324672
+ },
+ "day180|ribociclib|resist_score": {
+  "n_resp": 6,
+  "n_non": 6,
+  "AUC_high_predicts_nonresponse": 0.5,
+  "p": 1.0
+ },
+ "day180|ribociclib|ifn_hub": {
+  "n_resp": 6,
+  "n_non": 6,
+  "AUC_high_predicts_nonresponse": 0.3888888888888889,
+  "p": 0.5887445887445888
+ },
+ "day180|ribociclib|e2f": {
+  "n_resp": 6,
+  "n_non": 6,
+  "AUC_high_predicts_nonresponse": 0.75,
+  "p": 0.17965367965367965
+ },
+ "day180|ribociclib|risk4": {
+  "n_resp": 6,
+  "n_non": 6,
+  "AUC_high_predicts_nonresponse": 0.5277777777777778,
+  "p": 0.9372294372294373
+ },
+ "delta|ribociclib|resist_score|start->mid": {
+  "n_resp": 8,
+  "n_non": 7,
+  "median_change_resp": 0.021612760901490058,
+  "median_change_non": 0.06566469466784663,
+  "p": 1.0
+ },
+ "delta|ribociclib|ifn_hub|start->mid": {
+  "n_resp": 8,
+  "n_non": 7,
+  "median_change_resp": 0.14714034916934488,
+  "median_change_non": -0.0006727177349480362,
+  "p": 0.9550893550893552
+ },
+ "delta|ribociclib|e2f|start->mid": {
+  "n_resp": 8,
+  "n_non": 7,
+  "median_change_resp": 0.041678919913185036,
+  "median_change_non": -0.1930300178753413,
+  "p": 0.1892773892773893
+ },
+ "delta|ribociclib|risk4|start->mid": {
+  "n_resp": 8,
+  "n_non": 7,
+  "median_change_resp": -0.0051183299936992666,
+  "median_change_non": -0.031074209088883753,
+  "p": 0.6943278943278944
+ }
+}
