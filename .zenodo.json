@@ -1,0 +1,35 @@
+{
+  "title": "Analysis code and results for \"An interferon-stimulated gene programme marks palbociclib resistance in ER-positive breast cancer models: nested machine-learning validation and structure-based repurposing against STAT1\"",
+  "upload_type": "software",
+  "description": "<p>Analysis code, result tables and figures for an integrative study of palbociclib resistance in oestrogen receptor-positive breast cancer models.</p><p>Three independent palbociclib-resistant ER+ model datasets (GSE130437, GSE222367, GSE229235) are analysed with empirical Bayes moderated linear models and integrated by robust rank aggregation, yielding 378 reproducible expression changes dominated by interferon-stimulated genes. A STRING protein-protein interaction network identifies 14 hub genes, all interferon-stimulated, with STAT1 the most connected. LASSO, SVM-RFE and random-forest Boruta select a 17-gene core signature whose apparent cross-validated AUC of 1.00 falls to 0.65 under fully nested leave-one-dataset-out validation in which differential expression and feature selection are repeated inside every training fold. A LASSO-Cox risk score trained in ER+/HER2-negative TCGA-BRCA is prognostic there but does not replicate in METABRIC and does not predict response to ribociclib in serial single-cell biopsies from the FELINE trial (GSE158724). Approved drugs are docked against the phosphotyrosine subsite of the STAT1 SH2 domain after redocking validation (1.24 A RMSD). A specificity-verified RT-qPCR assay design for the core genes is included.</p><p>Every value in the associated manuscript was produced by this code; none was entered by hand. The negative validation results are included in full.</p>",
+  "creators": [
+    {
+      "name": "Thakar, Sambhaji Balaso",
+      "affiliation": "Structural Bioinformatics Unit, Department of Biochemistry, Shivaji University, Kolhapur, Maharashtra, India"
+    },
+    {
+      "name": "Kumbhar, Navanath M.",
+      "affiliation": "Structural Bioinformatics Unit, Department of Biochemistry, Shivaji University, Kolhapur, Maharashtra, India"
+    },
+    {
+      "name": "Sonawane, Kailas D.",
+      "affiliation": "Structural Bioinformatics Unit, Department of Biochemistry, Shivaji University, Kolhapur, Maharashtra, India"
+    }
+  ],
+  "keywords": [
+    "breast cancer",
+    "CDK4/6 inhibitor resistance",
+    "palbociclib",
+    "interferon-stimulated genes",
+    "STAT1",
+    "machine learning",
+    "nested cross-validation",
+    "molecular docking",
+    "drug repurposing",
+    "bioinformatics"
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "language": "eng",
+  "notes": "Underlying datasets are not redistributed and remain under the terms of NCBI GEO, UCSC Xena/TCGA, cBioPortal/METABRIC, STRING, the RCSB Protein Data Bank and ChEMBL. Result tables here are derived summary statistics."
+}

@@ -1,0 +1,23 @@
+# raw downloads are not redistributed - see ANALYSIS.md for accessions
+data/
+*.gz
+*.tar
+*.zip
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# os / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# scratch
+*.log
+*.tmp
+out/

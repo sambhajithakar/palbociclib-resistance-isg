@@ -1,0 +1,69 @@
+cff-version: 1.2.0
+title: >-
+  Analysis code and results for "An interferon-stimulated gene programme marks
+  palbociclib resistance in ER-positive breast cancer models"
+message: >-
+  If you use this software or the result tables, please cite both the
+  software archive and the associated paper.
+type: software
+authors:
+  - given-names: Sambhaji
+    family-names: Thakar
+    name-particle: Balaso
+    affiliation: >-
+      Structural Bioinformatics Unit, Department of Biochemistry,
+      Shivaji University, Kolhapur, Maharashtra, India
+    # orcid: 'https://orcid.org/0000-0000-0000-0000'
+  - given-names: Navanath
+    family-names: Kumbhar
+    affiliation: >-
+      Structural Bioinformatics Unit, Department of Biochemistry,
+      Shivaji University, Kolhapur, Maharashtra, India
+    # orcid: 'https://orcid.org/0000-0000-0000-0000'
+  - given-names: Kailas
+    family-names: Sonawane
+    affiliation: >-
+      Structural Bioinformatics Unit, Department of Biochemistry,
+      Shivaji University, Kolhapur, Maharashtra, India
+    # orcid: 'https://orcid.org/0000-0000-0000-0000'
+repository-code: 'https://github.com/sambhajithakar/palbociclib-resistance-isg'
+abstract: >-
+  Analysis code, result tables and figures for an integrative study of
+  palbociclib resistance in oestrogen receptor-positive breast cancer models.
+  Three independent resistant model systems are integrated by robust rank
+  aggregation, characterised by enrichment and network analysis, and used to
+  build a machine-learning signature that is assessed under both conventional
+  and fully nested leave-one-dataset-out validation. The derived risk score is
+  tested in TCGA-BRCA, METABRIC and the FELINE trial, and approved drugs are
+  docked against a validated subsite of the STAT1 SH2 domain.
+keywords:
+  - breast cancer
+  - CDK4/6 inhibitor resistance
+  - palbociclib
+  - interferon-stimulated genes
+  - STAT1
+  - machine learning
+  - nested cross-validation
+  - molecular docking
+  - drug repurposing
+  - bioinformatics
+license: MIT
+version: 1.0.0
+date-released: '2026-09-25'
+preferred-citation:
+  type: article
+  title: >-
+    An interferon-stimulated gene programme marks palbociclib resistance in
+    ER-positive breast cancer models: nested machine-learning validation and
+    structure-based repurposing against STAT1
+  authors:
+    - given-names: Sambhaji
+      family-names: Thakar
+      name-particle: Balaso
+    - given-names: Navanath
+      family-names: Kumbhar
+    - given-names: Kailas
+      family-names: Sonawane
+  year: 2026
+  # journal: ''
+  # doi: ''
